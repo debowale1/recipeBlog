@@ -42,6 +42,30 @@ const importData = async() => {
             ])
       await Recipe.insertMany([
               { 
+                "name": "Simple chocolate tart",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "American", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Thai", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
                 "name": "Recipe Name Goes Here",
                 "desc": `Recipe Description Goes Here`,
                 "email": "recipeemail@raddy.co.uk",
@@ -63,6 +87,174 @@ const importData = async() => {
                   "1 level teaspoon hot smoked paprika",
                 ],
                 "category": "Indian", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Chinese", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Thai", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "American", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Thai", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Chinese", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Indian", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Thai", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Thai", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "American", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Mushroom stroganoff",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Mexican", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Chinese", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Indian", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "American", 
+                "image": "southern-friend-chicken.jpg"
+              },
+              { 
+                "name": "Recipe Name Goes Here",
+                "desc": `Recipe Description Goes Here`,
+                "email": "recipeemail@raddy.co.uk",
+                "ingredients": [
+                  "1 level teaspoon baking powder",
+                  "1 level teaspoon cayenne pepper",
+                  "1 level teaspoon hot smoked paprika",
+                ],
+                "category": "Mexican", 
                 "image": "southern-friend-chicken.jpg"
               },
             ])

@@ -7,5 +7,7 @@ const router = express.Router()
  */
 router.get('/', recipeController.home)
 router.get('/categories', recipeController.exploreCategories)
+router.get('/recipe/:recipe', recipeController.recipe)
+router.post('/search', recipeController.searchRecipe)
 
 module.exports = router

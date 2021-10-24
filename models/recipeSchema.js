@@ -34,6 +34,8 @@ recipeSchema.pre('save', function(next){
   this.slug = slugify(this.name, { lower: true })
   next()
 })
+// to enable text search
+recipeSchema.index( { name: "text", desc: "text" } )
 
 module.exports = mongoose.model('Recipe', recipeSchema)
  

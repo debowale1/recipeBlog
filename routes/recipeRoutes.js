@@ -6,5 +6,6 @@ const router = express.Router()
  * App Routes
  */
 router.get('/', recipeController.home)
+router.get('/categories', recipeController.exploreCategories)
 
 module.exports = router
